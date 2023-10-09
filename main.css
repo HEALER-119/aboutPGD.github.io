@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ch-zn">
+
+<head>
+<meta charset=utf-8>
+<link rel="icon" href="img/icon1.svg" type="image/x-icon">
+<title>彼岸花下丨停滞于时间的哀与不息的爱</title>
+<style>
+.bg1{   
+	background-color:rgba(243,241,237,0.7);
+	background-image:url(img/leaf1.png),url(img/leaf2.png);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:left top,right bottom;
+	background-size:30% 38%;
+	z-index:-10;
+}
+</head>	
+</style>
+
+<body class="bg1">
+</body>
+
+</html>

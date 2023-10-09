@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ch-zn">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>wrapper</title>
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+	*{
+  		padding: 0;
+  		margin: 0;
+	}
+	.bg{
+		background-color:rgba(172,171,160,0.1);
+	}
+	.barrelRoll,.fadeIn,.floater,.heartbeat,.pulse,.rollerLeft,.rollerRight,.rotateIn,.rotateInLeft,.rotateInRight,.rotation,.shake,.sideToSide,.slideDown,.slideLeft,.slideRight,.slideUp,.spinner,.wiggle,.zoomer,.zoomerOut {
+    visibility: visible!important
+}
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: ease
+}
+
+.fadeIn,.fadeOut {
+    animation-timing-function: ease;
+    animation-duration: 4s
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    -webkit-animation-name: fadeOut;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    animation-fill-mode: forwards
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+    </style>
+</head>
+
+
+<body class="bg">
+
+<div class="wrapper">
+    <div class="item-bg active" style="width: 340px; height: 403.667px; transform: translateX(208.5px) translateY(12.375px);"></div>
+    <div class="news-slider swiper-container-coverflow swiper-container-3d swiper-container-horizontal" style="cursor: grab;">
+      
+
+	<div class="news-slider__wrp swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-3297px, 0px, 0px); perspective-origin: 3570px 50%;">
+	    <div class="news-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -29;"> 
+		<a class="news__item">
+            	    <div class="news__title">“我们这个群体为思念所困，余生都将持续，但一直不敢大胆承认自己对孩子的思念，为了周边的人而刻意掩饰自己真正的情感，视哀伤是一种不吉利的情绪。我们认为失去了孩子就失去了一切，不想也不敢尝试能让自己放松一刻心情的做法。”</div>
+            	    <p class="news__txt">
+             	     ——三联生活周刊 《中国100多万失独家庭，如何熬过丧亲之痛》中的大侠<br><br>
+            	    </p>
+                </a>
+	     </div>
+
+
+	    <div class="news-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -26;">
+		 <a class="news__item">
+            	     <div class="news__title">“我妈妈在我初中毕业那年夏天走了，在异地出车祸，当场离开，爸爸带我去当地殡仪馆看她，一直到把妈妈骨灰带回老家安葬，我都很平静。到现在十一年了，前不久和爸爸聊起这些，他说我那个时候为什么不难过，我没说话，因为我怕一张口就哽咽，没人知道我这十一年怎么过来的。我不敢和任何人聊起妈妈，光是说出妈妈两个字我都会躲起来痛哭很久……”</div>
+            		<p class="news__txt">
+              		——小红书 @不想搞钱、太累了
+             		</p>
+            	 </a> 
+	    </div>
+
+
+	    <div class="news-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -23;"> 
+		<a class="news__item">
+            	    <div class="news__title"><br /><br /><br />“145天了 我还是每天哭 夜深了就开始”</div>
+                    <p class="news__txt">
+              		——小红书 @奶油小狗子i
+            		</p>
+         	</a>
+	    </div>
+
+	    <div class="news-slider__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -20;"> <a class="news__item">
+            
+
+            <div class="news__title">“一想到一个对健康，对生活充满了渴望的人；对自己的身体状况，每一个细胞都百般呵护的人；一个如此珍惜生活，爱惜自己的人，却被野蛮的车祸撵为灰烬，仿佛将世界名画丢进火炉去生火，我真的难以释怀。我觉得即使什么时候我能平复心情，正视这件事情，但我以后还是再也无法回到以前那种无忧无虑，那种真的是没有忧虑的，建立在满满的幸福之上的快乐了。”</div>
+            <p class="news__txt">
+              ——知乎 匿名用户
+            </p>
+          </a> </div>
+
+	
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -17;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“失去亲人后，感觉人生没有什么意义了，好像人生变成了任务。人间像旅店一样，都成空了。”</div>
+            <p class="news__txt">
+              ——豆瓣 丧亲互助小组
+            </p>
+          </a> </div>
+
+
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -14;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“145天了 我还是每天哭 夜深了就开始”</div>
+            <p class="news__txt">
+              ——小红书 @奶油小狗子i
+            </p>
+          </a> </div>
+        
+
+	<div class="news-slider__item swiper-slide" data-swiper-slide-index="0" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -11;"> <a class="news__item">
+            <div class="news__title">“我们这个群体为思念所困，余生都将持续，但一直不敢大胆承认自己对孩子的思念，为了周边的人而刻意掩饰自己真正的情感，视哀伤是一种不吉利的情绪。我们认为失去了孩子就失去了一切，不想也不敢尝试能让自己放松一刻心情的做法。”</div>
+            <p class="news__txt">
+              ——三联生活周刊 《中国100多万失独家庭，如何熬过丧亲之痛》中的大侠<br><br>
+            </p>
+          </a> </div>
+        
+
+
+	<div class="news-slider__item swiper-slide" data-swiper-slide-index="1" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -8;"> <a class="news__item">
+            <div class="news__title">“我妈妈在我初中毕业那年夏天走了，在异地出车祸，当场离开，爸爸带我去当地殡仪馆看她，一直到把妈妈骨灰带回老家安葬，我都很平静。到现在十一年了，前不久和爸爸聊起这些，他说我那个时候为什么不难过，我没说话，因为我怕一张口就哽咽，没人知道我这十一年怎么过来的。我不敢和任何人聊起妈妈，光是说出妈妈两个字我都会躲起来痛哭很久……”</div>
+            <p class="news__txt">
+              ——小红书 @不想搞钱、太累了
+            </p>
+          </a> </div>
+        
+
+	<div class="news-slider__item swiper-slide" data-swiper-slide-index="2" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -5;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“145天了 我还是每天哭 夜深了就开始”</div>
+            <p class="news__txt">
+              ——小红书 @奶油小狗子i
+            </p>
+          </a> </div>
+
+
+
+        <div class="news-slider__item swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -2;"> <a class="news__item">
+            <div class="news__title">“一想到一个对健康，对生活充满了渴望的人；对自己的身体状况，每一个细胞都百般呵护的人；一个如此珍惜生活，爱惜自己的人，却被野蛮的车祸撵为灰烬，仿佛将世界名画丢进火炉去生火，我真的难以释怀。我觉得即使什么时候我能平复心情，正视这件事情，但我以后还是再也无法回到以前那种无忧无虑，那种真的是没有忧虑的，建立在满满的幸福之上的快乐了。”</div>
+            <p class="news__txt">
+              ——知乎 匿名用户
+            </p>
+          </a> </div>
+
+
+
+        <div class="news-slider__item swiper-slide swiper-slide-active" data-swiper-slide-index="4" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: 1;"> <a class="news__item active">
+            <div class="news__title"><br /><br /><br />“失去亲人后，感觉人生没有什么意义了，好像人生变成了任务。人间像旅店一样，都成空了。”</div>
+            <p class="news__txt">
+              ——豆瓣 丧亲互助小组
+            </p>
+          </a> </div>
+
+
+
+        <div class="news-slider__item swiper-slide swiper-slide-next" data-swiper-slide-index="5" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -2;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“145天了 我还是每天哭 夜深了就开始”</div>
+            <p class="news__txt">
+              ——小红书 @奶油小狗子i
+            </p>
+          </a> </div>
+
+
+      <div class="news-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -5;"> <a class="news__item">
+            <div class="news__title">“我们这个群体为思念所困，余生都将持续，但一直不敢大胆承认自己对孩子的思念，为了周边的人而刻意掩饰自己真正的情感，视哀伤是一种不吉利的情绪。我们认为失去了孩子就失去了一切，不想也不敢尝试能让自己放松一刻心情的做法。”</div>
+            <p class="news__txt">
+              ——三联生活周刊 《中国100多万失独家庭，如何熬过丧亲之痛》中的大侠<br><br>
+            </p>
+          </a> </div>
+
+
+
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -8;"> <a class="news__item">
+            <div class="news__title">“我妈妈在我初中毕业那年夏天走了，在异地出车祸，当场离开，爸爸带我去当地殡仪馆看她，一直到把妈妈骨灰带回老家安葬，我都很平静。到现在十一年了，前不久和爸爸聊起这些，他说我那个时候为什么不难过，我没说话，因为我怕一张口就哽咽，没人知道我这十一年怎么过来的。我不敢和任何人聊起妈妈，光是说出妈妈两个字我都会躲起来痛哭很久……”</div>
+            <p class="news__txt">
+              ——小红书 @不想搞钱、太累了
+            </p>
+         </a> </div>
+
+
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -11;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“145天了 我还是每天哭 夜深了就开始”</div>
+            <p class="news__txt">
+              ——小红书 @奶油小狗子i
+            </p>
+          </a> </div>
+
+
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -14;"> <a class="news__item">
+            <div class="news__title">“一想到一个对健康，对生活充满了渴望的人；对自己的身体状况，每一个细胞都百般呵护的人；一个如此珍惜生活，爱惜自己的人，却被野蛮的车祸撵为灰烬，仿佛将世界名画丢进火炉去生火，我真的难以释怀。我觉得即使什么时候我能平复心情，正视这件事情，但我以后还是再也无法回到以前那种无忧无虑，那种真的是没有忧虑的，建立在满满的幸福之上的快乐了。”</div>
+            <p class="news__txt">
+              ——知乎 匿名用户
+            </p>
+          </a> </div>
+
+
+
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -17;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“失去亲人后，感觉人生没有什么意义了，好像人生变成了任务。人间像旅店一样，都成空了。”</div>
+            <p class="news__txt">
+              ——豆瓣 丧亲互助小组
+            </p>
+          </a> </div>
+
+
+
+	<div class="news-slider__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); z-index: -20;"> <a class="news__item">
+            <div class="news__title"><br /><br /><br />“145天了 我还是每天哭 夜深了就开始”</div>
+            <p class="news__txt">
+              ——小红书 @奶油小狗子i
+            </p>
+          </a> </div></div>
+
+
+      <div class="news-slider__ctr">
+        <div class="news-slider__arrows">
+          <button class="news-slider__arrow news-slider-prev" tabindex="0" role="button" aria-label="Previous slide"> <span class="icon-font">
+              <svg class="icon icon-arrow-left">
+                <use xlink:href="#icon-arrow-left">
+                </use>
+              </svg>
+            </span> </button>
+          <button class="news-slider__arrow news-slider-next" tabindex="0" role="button" aria-label="Next slide"> <span class="icon-font">
+              <svg class="icon icon-arrow-right">
+                <use xlink:href="#icon-arrow-right">&lt;</use>
+              </svg>
+            </span> </button>
+        </div><br/><br/>
+        <div class="news-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span></div>
+      </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+  </div>
+
+
+<script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+<script src="swiper.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
