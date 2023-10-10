@@ -19,7 +19,31 @@
 </head>		
 
 <body class="bg1">
-	
+	<?php if (is_home()) { ?>  
+<!--页面加载start-->
+<link rel="stylesheet" type="text/css" href="loader.css">
+ 
+<script type="text/javascript">         
+   
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+    }); 
+</script>    
+ 
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">页面加载中···<br>
+                     
+</div>
+</div>
+<!--页面加载end-->
+<?php } ?>
+
+
+
 	<div class="bg2">
 	    <div class="d0">
 		<a href="#top"><canvas id="myCanvas" width="50" height="50" class="logo" style="border:none"></canvas>
@@ -38,10 +62,11 @@
 		<image src="img/content.svg" class="logo">
 		<div class="menu">
 		    <ol>
-			<li><a href="#part1">1.伤恸笼罩下的悲鸣</a></li>
-			<li><a href="#part2">2.困在时间里的哀伤</a></li>
-			<li><a href="#part3">3.窥见哀伤背后的故事</a></li>
-			<li><a href="#part4">4.生者”永居之地“的重构</a></li>
+			<li><a href="#beginning">开篇</a></li>
+			<li><a href="#part1">一.伤恸笼罩下的悲鸣</a></li>
+			<li><a href="#part2">二.困在时间里的哀伤</a></li>
+			<li><a href="#part3">三.窥见哀伤背后的故事</a></li>
+			<li><a href="#part4">四.生者”永居之地“的重构</a></li>
     		    </ol>
 		</div>
 	</div>
@@ -54,10 +79,10 @@
 
 
     <div id="middle" class="d6" style="margin-top:10%">
-	<div class="d2" style="width:65%;padding:4%;">
+	<div id="beginning" class="d2" style="width:65%;padding:4%;">
 		<br />
 
-		<p class="p1" width="50px"><b>引</b></p>
+		<p class="p1" width="50px"><b>开篇</b></p>
 		<hr style="background-color:#C4B8A1;width:100px;height:2px;border:none"/>
 		<p class="p2"><br />生老病死、悲欢离合本是人的一生中必经的成长课题，可是当消亡的彼岸花绽放于身边，弥足长久又是怎样的感受？<br /></p>		
 		<div><br />
@@ -74,7 +99,7 @@
 	    <p class="p4">《神雕侠侣》中程英与陆无双分离时，程英安慰陆无双道：“你瞧这些白云聚了又散，散了又聚，人生离合，亦复如斯。”死亡，其实也是一种离别，或许就像《克斯维尔的明天》里说的那样“真正的告别，没有长亭古道，没有劝君更尽一杯酒。就是在一个和平时一样的清晨，有人留在昨天了。”<b>死亡是生者对逝者的送行，只是与以往的分别不同，至此故事就归于了终点，而此后的哀伤则是我们为爱付出的代价。</b>大部分人并不像祥林嫂将悲痛反复诉诸，而是选择在表面的平静下舔舐着伤口，寂静之声却震耳欲聋。我们无从详细地知晓丧亲者此后所历经的每一天，只能从影视剧中窥看他们的苦楚。</p>
 		<div style="margin-top:0px"><img src="img/taici.jpg" width="80%"></div>
 	    
-	    <p class="p4">上面的两句话分别取自于国产剧《去有风的地方》和Neflix电影《海边的曼切斯特》，前者主人公的挚友因疾病突发原因离世，后者主人公的孩子因突发意外离世，这两句话则以第一人称的方式诉说了他们的哀伤。两部剧虽诞生于不同的文化之下，载于各异的题材表现，以用不近乎相同的方式诉诸情感，却在此片段中<b>输出着同一个主题——面对丧亲的伤恸。</b></p>
+	    <p class="p4">上面的两句话分别取自于国产剧《去有风的地方》和Netflix电影《海边的曼切斯特》，前者主人公的挚友因疾病突发原因离世，后者主人公的孩子因突发意外离世，这两句话则以第一人称的方式诉说了他们的哀伤。两部剧虽诞生于不同的文化之下，载于各异的题材表现，以用不近乎相同的方式诉诸情感，却在此片段中<b>输出着同一个主题——面对丧亲的伤恸。</b></p>
 	    <br />
 	    
 	    <p class="p4">从苏轼的“十年生死两茫茫”到当下的影视作品，或爱人或挚友或儿女，所能带来哀痛的早已不只是传统意义上定义为父母消亡的丧亲。<br /><br /><b>丧亲又何止于丧失父母？</b></p>
@@ -387,7 +412,7 @@
 
 	
 	<div class="bg3">
-		<p class="p21">当代著名哀伤学者、心理学家、复杂性哀伤治疗开发者玛格丽特·希尔（Margaret Shear）博士在一次演说中谈道：“人们时常想象丧亲哀伤仿佛是一次旅行的开始，然而哀伤并不是一个有归程的旅行。我们不可能在经历过一段哀伤的日子之后走上返程，重新回到过去的生活中。相反，哀伤是一个新的家园，是生者的永居之地，生者要在那里重新界定他们的生活。生命因为重大的丧失而永远改变。即使哀伤没有终止，但生活的意义却依然可以重建，并让人感到丰盛和满足。”<br /><br /><br /><br /></p>
+		
 	</div>
 
 	<div class="d8">
@@ -469,5 +494,5 @@
  
 </script>
 
-</script>
+
 </html>
